@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-500: #0c0c0d;
+  --gray-400: #2f2f33;
+  --gray-300: #75747a;
+  --gray-200: #e3e1e4;
+  --gray-100: #fafafa;
+  --purple: #685ed9;
+  --purple-dark: #4439c7;
+  --yellow-light: #faf2e7;
+  --yellow: #f5d9ad;
+  --gradient-dark: linear-gradient(180deg, #0f0a31 0%, #3f347e 100%);
+  --gradient-light: linear-gradient(77deg, #4453b2 -0.41%, #502c9e 98.95%);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: var(--gradient-dark);
+}

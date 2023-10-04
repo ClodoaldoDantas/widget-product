@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+  color: var(--gray-500);
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--gray-400);
+
+  span {
+    color: var(--purple-dark);
+  }
+}
+
+.rating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  & > button:has(~ button:hover) > svg {
+    color: var(--yellow);
+  }
+}
+
+.ratingLegend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+
+  span {
+    width: 3rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: var(--gray-300);
+  }
+}

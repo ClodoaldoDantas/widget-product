@@ -1,0 +1,43 @@
+.card {
+  width: 410px;
+
+  background-color: var(--gray-100);
+  border-radius: 20px;
+  box-shadow: 0px 6px 13px 0px rgba(20, 17, 59, 0.25),
+    0px 24px 24px 0px rgba(20, 17, 59, 0.21),
+    0px 54px 32px 0px rgba(20, 17, 59, 0.13),
+    0px 96px 38px 0px rgba(20, 17, 59, 0.04);
+}
+
+.cardHeader {
+  position: relative;
+  height: 184px;
+  width: 100%;
+
+  background: var(--gradient-light);
+  border-radius: 20px 20px 0 0;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .backButton {
+    background-color: transparent;
+    border: 0;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    svg {
+      color: var(--gray-100);
+    }
+  }
+}
+
+.cardBody {
+  padding: 3rem;
+}
