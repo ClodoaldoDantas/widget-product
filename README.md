@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+## Widget Product
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Bora Codar: Avaliação de Produto • Desafio 39
 
-Currently, two official plugins are available:
+![image](https://github.com/ClodoaldoDantas/widget-product/assets/32376905/a3dcdea2-fe9a-4fab-ab23-2e83a5372db3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 💻 Como executar o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Certifique-se de ter o Node instalado na sua máquina.
+2. Clone o repositório.
+3. Navegue até o diretório raiz do projeto.
+4. Execute o comando `npm install` para instalar as dependências do projeto.
+5. Execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
